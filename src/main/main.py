@@ -14,5 +14,5 @@ def some_calculation(x, y):
 
 
 if __name__ == "__main__":
-    VAL = some_calculation(2, 5)
+    VAL = some_calculation(10, 15)
     print(f"number {VAL}")
