@@ -3,7 +3,7 @@ Module docstring
 """
 
 
-def some_calculation(x, y):
+def some_calculation(x,y):
     """
     method docstring
     :param x: something
