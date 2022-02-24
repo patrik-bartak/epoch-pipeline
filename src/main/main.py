@@ -12,6 +12,6 @@ def some_calculation(x,y):
     return x + y
 
 
-if __name__ == "__main__":
+if __name__ =="__main__":
     VAL=some_calculation(10, 15)
     VAL+=10;print(f"number {VAL}")
