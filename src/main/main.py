@@ -2,6 +2,9 @@
 Module docstring
 """
 
+import other
+from some_class import SomeClass
+
 j = [1, 2, 3]
 
 
@@ -11,7 +14,9 @@ def some_calculation(x, y):
     :param y: something
     :return: something
     """
-    return x + y
+    other.some_method()
+    it = SomeClass()
+    return x + np.sum([x, y])
 
 
 def very_important_function(var1, var2, var3):
