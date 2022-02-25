@@ -11,11 +11,13 @@ j = [1, 2, 3]
 def some_calculation(x, y):
     """method docstring
     :param x: something
+    :param y: something
     :return: something
     """
     other.some_method()
     it = SomeClass()
-    return x, y, it
+    that = SomeClass()
+    return x, y, it, that
 
 
 def very_important_function(var1, var2, var3):
