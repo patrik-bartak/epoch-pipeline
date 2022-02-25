@@ -16,12 +16,13 @@ def some_calculation(x, y):
     """
     other.some_method()
     it = SomeClass()
-    return x + np.sum([x, y])
+    return x, y, it
 
 
 def very_important_function(var1, var2, var3):
-    with open(file, "w") as f:
-        f.close()
+    pass
+    # with open(file, "w") as f:
+    #     f.close()
 
 
 if __name__ == "__main__":
