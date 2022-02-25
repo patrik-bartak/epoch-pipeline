@@ -1,7 +1,7 @@
 # Epoch pipeline
 
 Repository containing the pipeline intended to be used within Epoch.
-Consists of a pre-commit hook and GitHub Actions pipeline.
+Consists of pre-commit hooks and GitHub Actions pipeline.
 
 ## Pre-commit hook
 Pre-commit hooks are managed using the `pre-commit` package.
