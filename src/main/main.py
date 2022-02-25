@@ -11,7 +11,6 @@ j = [1, 2, 3]
 def some_calculation(x, y):
     """method docstring
     :param x: something
-    :param y: something
     :return: something
     """
     other.some_method()
