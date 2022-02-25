@@ -16,7 +16,7 @@ def some_calculation(x, y):
     """
     other.some_method()
     it = SomeClass()
-    return x, y, it, that
+    return x, y, it
 
 
 def very_important_function(var1, var2, var3):
