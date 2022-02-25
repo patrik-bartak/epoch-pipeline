@@ -11,7 +11,7 @@ Hooks are automatically run before any code is committed.
 If a check fails or changes the contents of a file, the commit is aborted and the file changes must be checked and staged to commit again.
 The following is checked:
 - `check-yaml` verifies YAML syntax (does not fix automatically)
-- `check-yaml` verifies TOML syntax (does not fix automatically)
+- `check-toml` verifies TOML syntax (does not fix automatically)
 - `end-of-file-fixer` makes sure files end in a newline
 - `trailing-whitespace` trims trailing whitespace on lines
 - `requirements-txt-fixer` sorts entries in requirements.txt
