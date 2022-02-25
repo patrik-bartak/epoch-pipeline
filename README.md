@@ -16,6 +16,8 @@ The following is checked:
 - `trailing-whitespace` trims trailing whitespace on lines
 - `requirements-txt-fixer` sorts entries in requirements.txt
 - `black` formats code according to PEP 8
+- `pycln` removes unused imports
+- `isort` sorts imports
 
 For some packages, configurations can be changed in `pyproject.toml`.
 
