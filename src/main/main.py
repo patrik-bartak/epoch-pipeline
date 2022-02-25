@@ -20,7 +20,6 @@ def some_calculation(x, y):
 
 
 def very_important_function(var1, var2, var3):
-    """Applies `variables` to the `template` and writes to `file`."""
     with open(file, "w") as f:
         f.close()
 
