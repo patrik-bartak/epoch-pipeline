@@ -26,6 +26,6 @@ To add new hooks, change `.pre-commit-config.yaml` in the correct format and run
 
 ## GitHub Actions
 GitHub Actions are used to set up a pipeline with `flake8`. This is a python linter and static analyzer that checks for more complicated issues, and therefore does not correct them automatically.
-It is not necessary to pass `flake8` analysis for every commit, but it is necessary to pass the pipeline to merge pull requests.
+The `flake8 Lint` action is run for every push, and it is necessary to pass it to merge pull requests.
 
 This is set up in `.github > workflows > flake8.yaml`
